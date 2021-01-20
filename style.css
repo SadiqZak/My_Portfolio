@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -10,6 +11,7 @@ hr{
 :root{
     --primary-color:#FBBF24;
     --dark-grey:#6B7280;
+    --off-white:#F3F4F6;
 }
 .container{
     padding: 0rem 1rem;
@@ -86,8 +88,33 @@ hr{
 
 .hero .hero-band{
     color: var(--dark-grey);
+    text-align: center;
 }
 
 .hero .hero-band .hero-header{
     color: var(--primary-color);
+    
+}
+
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1rem ;
+}
+
+.footer .links{
+    color: white;
 }
