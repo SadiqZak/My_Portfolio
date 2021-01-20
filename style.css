@@ -32,6 +32,7 @@ hr{
     padding: 0.2rem 0.2rem;
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .secondary-links{
@@ -39,6 +40,7 @@ hr{
     padding: 0.2rem 0.2rem;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    font-weight: bold;
     
 }
 
@@ -67,8 +69,14 @@ hr{
 }
 
 .navigation .nav-brand{
-    font-weight: bold;
-    padding: 1rem;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 1rem;
+}
+
+.navigation .nav-bottom{
+    padding: 0rem;
+    text-align: left;
 }
 
 .navigation .list-active{
