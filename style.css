@@ -5,10 +5,11 @@ body{
 }
 
 hr{
-    padding:0rem 2rem
+    margin:2rem 0rem;
 }
 :root{
     --primary-color:#FBBF24;
+    --dark-grey:#6B7280;
 }
 .container{
     padding: 0rem 1rem;
@@ -51,6 +52,7 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .links{
@@ -69,4 +71,23 @@ hr{
 
 .navigation .list-active{
     font-weight: bold;
+}
+
+.hero{
+    padding: 1rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-band{
+    color: var(--dark-grey);
+}
+
+.hero .hero-band .hero-header{
+    color: var(--primary-color);
 }
