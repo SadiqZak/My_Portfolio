@@ -4,6 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+    --primary-color:#FCD34D;
+}
 .container{
     padding: 0rem 1rem;
 }
@@ -15,4 +18,11 @@ body{
 
 .links{
     text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.primary-links{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
