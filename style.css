@@ -4,8 +4,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    padding:0rem 2rem
+}
 :root{
-    --primary-color:#FCD34D;
+    --primary-color:#FBBF24;
 }
 .container{
     padding: 0rem 1rem;
@@ -23,6 +26,47 @@ body{
 
 .primary-links{
     background-color: var(--primary-color);
+    padding: 0.2rem 0.2rem;
     border-radius: 0.5rem;
     color: white;
+}
+
+.secondary-links{
+    color: var(--primary-color);
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
+}
+
+.lists-non-bullets{
+    list-style: none;
+}
+
+.lists-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation .links{
+    color: white;
+}
+
+.navigation .align{
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navigation .list-active{
+    font-weight: bold;
 }
