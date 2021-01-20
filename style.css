@@ -126,3 +126,11 @@ hr{
 .footer .links{
     color: white;
 }
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .head{
+    font-weight: bold;
+}
