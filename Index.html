@@ -10,62 +10,67 @@
 </head>
 <body>   
     <header>
-        <nav class="flex flex-jc-sb flex-ai">
+        <nav class="flex container-center">
             <a href="/" class="logo">moZak</a>
 
-            <a href="#" class="menu">
+            <a href="#" class="menu hide-for-mobile">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
 
-            <div class="links flex-jc-sb">
+            <div class="links flex-jc-sb hide-for-desktop">
                 <a href="#">Home</a>
                 <a href="#">Project</a>
                 <a href="#">Blog</a>
             </div>
-        </nav>
-        
-        <div class="flex flex-ai ">
-            <span>
+        </nav> 
+    </header>
+    
+    
+
+    <section class="hero">
+        <div class="hero-comp container-center">
+            <div class= "hero-text">
                 <h1 class="hero-band">Hi, I am <br><span class="hero-header">Mohammed Sadiq Zakariah</span></h1>
                 <h4 class="hero-bottom">A front-end developer with a zeel to learn more and grow.<br>Find me on: </h4>
+           
                 <div class="wrapper">
-        
                     <a class="button" href="#">
                         <div class="icon">
                             <i class="fab fa-instagram"></i>
                         </div>
                         <span>Instagram</span>
                     </a>
-             
+                
                     <a class="button" href="#">
                         <div class="icon">
                             <i class="fab fa-facebook-f"></i>
                         </div>
                         <span>Facebook</span>    
                     </a>
-                
-                </div>
-                
-            </span>
-            <img class="hero-img" src="/images/hero.svg">   
-        </div>
-    </header>
+                </div> 
+            </div>
 
-    <section class="section off-white">
-        <div class="container flex flex-jc-sb">
+            <div>
+                <img class="hero-img container-center" src="/images/hero.svg">  
+            </div> 
+        </div>      
+    </section>
+    
+
+    <section class="section off-white ">
+        <div class="container-center">
+            <img class="emoji" src="/images/Technologies.svg">
             <span>
                 <h1 >technologies</h1>
                 <p>Familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting</p>
-            </span>
-            <img class="emoji " src="/images/Technologies.svg">
-            
+            </span>     
         </div>
     </section>
 
     <section class="section">
-        <div class="container flex">
+        <div class="container-center">
             <img class="emoji" src="/images/Project.svg">
             <span>
                 <h1>projects</h1>
@@ -76,21 +81,21 @@
     </section>
 
     <section class="section off-white">
-        <div class="container flex flex-jc-sb">
+        <div class="container-center">
+            <img class="emoji flex-ai" src="/images/Book.svg">
             <span>
                 <h1 >blogs</h1>
                 <p>I've been writing non-technical and technical blogs lately. You can click below for more information :) </p>
                 <a class= "links secondary-links" href="/blogs.html">read blogs</a>
             </span>
-            <img class="emoji flex-ai" src="/images/Book.svg">
         </div> 
     </section>
 
-    <footer class="footer">
-        <div class="footer">
+    <footer class="footer ">
+        <div class="footer container-center">
             <h4 class="head">other social media handles</h4>
         </div>
-        <div class="social-links flex">
+        <div class="social-links flex container-center">
             <a class="footer-icons" href="https://github.com/SadiqZak">
                 <div>
                     <i class="fab fa-github"></i>
@@ -105,7 +110,7 @@
             </a>
             <a class="footer-icons" href="https://www.linkedin.com/in/mohammed-sadiq-zakariah-39b356186/">
                 <div>
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-linkedin "></i>
                 </div>
                 <span>LinkedIn</span>
             </a>
