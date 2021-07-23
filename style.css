@@ -138,15 +138,13 @@ a, a:visited, a:hover{
 
 .hero-img{
     height: auto;
-    max-width: 400px;
+    width: 400px;
     padding: 1 rem;
-    padding-right: 200px;
 }
 
 .hero-band{
     font-weight: 800;
     font-family: 'Anton', sans-serif;
-    padding-left: 200px;
     color: #6B7280;
 
 }
@@ -166,7 +164,6 @@ a, a:visited, a:hover{
 .hero-bottom{
     font-weight: 600;
     font-family: 'Anton', sans-serif;
-    padding-left: 200px;
     color: #6B7280;
 }
 
