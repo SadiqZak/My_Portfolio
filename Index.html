@@ -2,67 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home| Developer</title>
-    <link href="style.css" rel="stylesheet"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 </head>
-<body>
-    <nav class="navigation container">
-        <div class="nav-brand">moZak</div>
-        <div class="nav-bottom">Mohammed Sadiq Zakariah</div>
+<body>   
+    <header>
+        <nav class="flex flex-jc-sb flex-ai">
+            <a href="/" class="logo">moZak</a>
 
-        <ul class="lists-non-bullets align">
-            <li class="lists-inline">
-                <a class="links list-active" href="/">home</a>
-            </li>
-       
-            <li class="lists-inline">
-                <a class="links" href="/projects.html">project</a>
-            </li>
+            <a href="#" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
 
-            <li class="lists-inline">
-                <a class="links" href="/blogs.html">blogs</a>
-            </li>
-        </ul>
-    </nav>
-    
-    <header class="hero">
-        <img class="hero-img" src="images/hero.svg">
-        <h1 class="hero-band">Portfolio for <span class="hero-header">Web Dev</span> </h1>
+            <div class="links flex-jc-sb">
+                <a href="#">Home</a>
+                <a href="#">Project</a>
+                <a href="#">Blog</a>
+            </div>
+        </nav>
+        
+        <div class="flex flex-jc-sb flex-ai ">
+            <span>
+                <h1 class="hero-band">Hi, I am <br><span class="hero-header">Mohammed Sadiq Zakariah</span></h1>
+                <h4 class="hero-bottom">A front-end developer with a zeel to learn more and grow.<br>Find me on: </h4>
+                <div class="wrapper">
+        
+                    <a class="button" href="#">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </a>
+             
+                    <a class="button" href="#">
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <span>Facebook</span>    
+                    </a>
+                
+                </div>
+                
+            </span>
+            <img class="hero-img" src="/images/hero.svg">   
+        </div>
     </header>
 
     <section class="section off-white">
-        <div class="container container-center">
-            <h1 >technologies</h1>
-            <p>Familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting</p>
+        <div class="container flex flex-jc-sb">
+            <span>
+                <h1 >technologies</h1>
+                <p>Familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting</p>
+            </span>
+            <img class="emoji " src="/images/Technologies.svg">
+            
         </div>
     </section>
 
     <section class="section">
-        <div class="container container-center">
-            <h1>projects</h1>
-            <p>Would love for you to check out my work that I've hosted online! </p>    
-            <a class="links primary-links" href="/projects.html">see projects</a>
+        <div class="container flex">
+            <img class="emoji" src="/images/Project.svg">
+            <span>
+                <h1>projects</h1>
+                <p>Would love for you to check out my work that I've hosted online! </p> 
+                <a class="links primary-links" href="/projects.html">see projects</a>
+            </span>           
         </div>
     </section>
 
     <section class="section off-white">
-        <div class="container container-center">
-            <h1 >blogs</h1>
-            <p>I've been writing non-technical and technical blogs lately. You can click below for more information :) </p>
-            <a class= "links secondary-links" href="/blogs.html">read blogs</a>
+        <div class="container flex flex-jc-sb">
+            <span>
+                <h1 >blogs</h1>
+                <p>I've been writing non-technical and technical blogs lately. You can click below for more information :) </p>
+                <a class= "links secondary-links" href="/blogs.html">read blogs</a>
+            </span>
+            <img class="emoji flex-ai" src="/images/Book.svg">
         </div> 
     </section>
 
     <footer class="footer">
         <div class="footer">
-            <h4 class="head">social media handles</h4>
+            <h4 class="head">other social media handles</h4>
         </div>
-        <ul class="lists-non-bullets">
-            <a class="social links" href="https://github.com/SadiqZak">GitHub</a>
-            <a class="social links" href="https://twitter.com/SadiqZakariah">Twitter</a>
-            <a class="social links" href="https://www.linkedin.com/in/mohammed-sadiq-zakariah-39b356186/">LinkedIn</a>
-        </ul>
+        <div class="social-links flex">
+            <a class="footer-icons" href="https://github.com/SadiqZak">
+                <div>
+                    <i class="fab fa-github"></i>
+                </div>
+                <span>Github</span> 
+            </a>
+            <a class="footer-icons" href="https://twitter.com/SadiqZakariah">
+                <div>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <span>Twitter</span> 
+            </a>
+            <a class="footer-icons" href="https://www.linkedin.com/in/mohammed-sadiq-zakariah-39b356186/">
+                <div>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <span>LinkedIn</span>
+            </a>
+        </div>
     </footer>
+
 </body>
-</html> 
+
+</html>
