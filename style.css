@@ -170,6 +170,8 @@ a, a:visited, a:hover{
     .hero-img{
         width: 100%;
     }
+
+   
 }
     
 
@@ -181,7 +183,6 @@ a, a:visited, a:hover{
         display: flex;
         /* justify-content: space-between; */
     }
-
 }
 
 @media(max-width: 600px){
@@ -375,9 +376,8 @@ a, a:visited, a:hover{
 } */
 
 .social-links a{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding: 0;
 }
 
 .social-links .footer-icons i{
