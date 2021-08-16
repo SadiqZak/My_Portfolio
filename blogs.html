@@ -7,11 +7,13 @@
     <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div id="overlay"></div>
+     
         <nav class="flex container-center">
             <a href="/" class="logo">moZak</a>
 
-            <a href="#" class="menu hide-for-mobile">
+            <a id="btnHamburger" href="#" class="menu hide-for-mobile">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -19,13 +21,21 @@
 
             <div class="links flex-jc-sb hide-for-desktop">
                 <a href="/Index.html">Home</a>
-                <a href="/projects.html">Project</a>
-                <a href="/blogs.html">Blog</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/blogs.html">Blogs</a>
             </div>
         </nav> 
 
+        <div id="menu" class= "header_menu dissapear" >
+            <a href="/Index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/blogs.html">Blogs</a>
+        </div>
+
         <h1 class="container-center hero-band">my <span class="hero-header">blogs</span> </h1>
-    
+
     </header>
 </body>
+<script src="app.js"></script>
 </html>
+

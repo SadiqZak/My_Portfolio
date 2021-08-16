@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div id="overlay"></div>
+     
         <nav class="flex container-center">
             <a href="/" class="logo">moZak</a>
 
-            <a href="#" class="menu hide-for-mobile">
+            <a id="btnHamburger" href="#" class="menu hide-for-mobile">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -20,13 +22,17 @@
 
             <div class="links flex-jc-sb hide-for-desktop">
                 <a href="/Index.html">Home</a>
-                <a href="/projects.html">Project</a>
-                <a href="/blogs.html">Blog</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/blogs.html">Blogs</a>
             </div>
-        </nav>
+        </nav> 
 
-        <h1 class="container-center hero-band">my <span class="hero-header">projects</span> </h1>
-        
+        <div id="menu" class= "header_menu dissapear" >
+            <a href="/Index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/blogs.html">Blogs</a>
+        </div>
+
     </header>
 
 
@@ -111,4 +117,5 @@
   
     
 </body>
+<script src="app.js"></script>
 </html>
