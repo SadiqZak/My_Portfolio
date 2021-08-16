@@ -29,6 +29,23 @@ body{
     justify-content: space-between;
 }
 
+.max{
+    margin: auto;
+    max-width: 1200px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
 /* navigation bar-general */
 nav{
     padding: 15px;
