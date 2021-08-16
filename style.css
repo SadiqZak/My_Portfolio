@@ -29,14 +29,7 @@ body{
     justify-content: space-between;
 }
 
-.max{
-    margin: auto;
-    max-width: 1200px;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
-    /* text-align: center; */
-}
+
 
 .flex{
     display: flex;
@@ -264,6 +257,14 @@ a, a:visited, a:hover{
         display: flex;
         flex-direction: row-reverse;
         /* justify-content: space-between; */
+    }
+    .max{
+        margin: auto;
+        max-width: 1200px;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
     }
 }
 
