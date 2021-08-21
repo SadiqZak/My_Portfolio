@@ -506,3 +506,7 @@ a, a:visited, a:hover{
     justify-content: center;
     /* text-align: center; */
 }
+
+.line-height{
+    line-height: 20pt;
+}
