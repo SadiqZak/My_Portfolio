@@ -438,6 +438,9 @@ a, a:visited, a:hover{
     padding-left: 200px;
 } */
 
+.blog-padding{
+    padding-bottom: 200px;
+}
 .footer{
     background-color: #FBBF24;
     padding: 2rem 0rem;
